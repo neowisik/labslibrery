@@ -1,0 +1,87 @@
+.place
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #87CEEB;
+}
+
+.block
+{
+    width: 280px;
+    height: 250px;
+    background: rgb(244, 180, 4);
+}
+
+.triangle
+{
+    width: 0;
+    height: 0;
+    border-left: 200px solid transparent;
+    border-right: 200px solid transparent;
+    border-bottom: 250px solid rgb(226, 132, 142);
+}
+
+.ivisibleblock
+{
+    width: 200px;
+    height: 200px;
+    background: #87CEEB;
+}
+
+.block2
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    transform: translate(0,50px);
+    width: 80px;
+    height: 80px;
+    background: #87CEEB;
+    
+}
+
+.cross {
+    background: red;
+    height: 80px;
+    position: relative;
+    width: 8px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    transform: translate(0,-30px);
+  }
+  .cross:after {
+    background: red;
+    content: "";
+    height: 8px;
+    left: -36px;
+    position: absolute;
+    top: 40px;
+    width: 80px;
+  }
+
+  .place2
+  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #10c81c;
+  }
+
+  .ivisibleblock2
+  {
+    width: 200px;
+    height: 200px;
+    background: #10c81c;
+  }
+
+  .door
+  {
+    width: 80px;
+    height: 140px;
+    transform: skew(0,-200deg);
+    background: red;
+    
+    
+  }
