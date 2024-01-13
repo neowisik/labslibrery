@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Определение простого числа</title>
+</head>
+<body>
+    <h1>Определение простого числа</h1>
+    <input type="number" id="numberInput" placeholder="Введите число">
+    <button onclick="checkPrime()">Проверить</button>
+    <p id="result"></p>
+
+    <script>
+        function checkPrime() {
+            var number = parseInt(document.getElementById("numberInput").value);
+            var isPrime = true;
+            
+            if (number === 1) {
+                isPrime = false;
+            } else if (number > 1) {
+                for (var i = 2; i < number; i++) {
+                    if (number % i === 0) {
+                        isPrime = false;
+                        break;
+                    }
+                }
+            } else {
+                isPrime = false;
+            }
+            
+            var resultElement = document.getElementById("result");
+            if (isPrime) {
+                resultElement.textContent = number + " - простое число";
+            } else {
+                resultElement.textContent = number + " - не является простым числом";
+            }
+        }
+    </script>
+</body>
+</html>
