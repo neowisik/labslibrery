@@ -1,0 +1,151 @@
+
+body{
+    font-family: 'Pixelify Sans', sans-serif;
+}
+
+nav {
+    margin-top: 10px;
+    
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(107, 107, 107);
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+.block{
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+.user-list {
+    margin-top: 20px;
+}
+
+.user-item {
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    
+}
+
+input {
+    padding: 8px;
+    margin-right: 10px;
+}
+
+form {
+    display: inline-block;
+    margin-top: 20px;
+}
+
+p {
+    margin: 5px 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.service-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.service-card {
+    width: 45%;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+}
+
+
+
+.btn-book {
+    margin-top: 10px;
+    padding: 8px 16px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.admin-section {
+    margin-top: 20px;
+}
+
+.service-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+    
+}
+
+.service-card {
+    width: 45%;
+    margin: 10px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.service-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.add-service-form {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.add-service-form input {
+    margin: 5px;
+    padding: 8px;
+}
+
+.add-service-form button {
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
